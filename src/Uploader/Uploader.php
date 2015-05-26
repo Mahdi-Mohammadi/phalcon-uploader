@@ -148,8 +148,9 @@ class Uploader
                 else {
                     $filename   =   $this->rules['hash']($filename).'.'.$file->getExtension();
                 }
-            }
-
+            }elseif(isset($this->rules['name']) && !empty($this->rules['name'])) {
+			        $filename   =   Format::toLatin($this->rules['name'], '', true).'.'.$file->getExtension();
+	        }
             if(isset($this->rules['sanitize']) === true) {
                 $filename   =   Format::toLatin($filename, '', true);
             }
