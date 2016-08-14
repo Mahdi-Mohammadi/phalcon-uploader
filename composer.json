@@ -1,5 +1,5 @@
 {
-    "name": "Mahdi-Mohammadi/phalcon-uploader",
+    "name": "mahdi-mohammadi/phalcon-uploader",
     "description": "Phalcon files uploader. Handling and downloading files for Phalcon projects. Allowed multiple files download, filters etc...",
     "type": "library",
     "keywords" : [
