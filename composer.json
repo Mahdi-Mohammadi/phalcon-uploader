@@ -1,5 +1,5 @@
 {
-    "name": "stanislav-web/phalcon-uploader",
+    "name": "Mahdi-Mohammadi/phalcon-uploader",
     "description": "Phalcon files uploader. Handling and downloading files for Phalcon projects. Allowed multiple files download, filters etc...",
     "type": "library",
     "keywords" : [
@@ -10,13 +10,13 @@
         "uploader"
     ],
     "support": {
-        "issues": "https://github.com/stanislav-web/phalcon-uploader/issues"
+        "issues": "https://github.com/Mahdi-Mohammadi/phalcon-uploader/issues"
     },
     "minimum-stability": "dev",
-    "homepage" : "https://github.com/stanislav-web/phalcon-uploader",
+    "homepage" : "https://github.com/Mahdi-Mohammadi/phalcon-uploader",
     "license" : "MIT",
     "authors" : [{
-        "name": "Stanislav WEB",
+        "name": "Mahdi-Mohammadi",
         "email": "stanisov@gmail.com",
         "homepage": "http://reds.com",
         "role": "Developer"
