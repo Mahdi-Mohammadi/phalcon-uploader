@@ -142,11 +142,10 @@ class Uploader
                 if (empty($this->rules['hash']) === TRUE) {
                     $this->rules['hash'] = 'md5';
                 }
-
                 if (!is_string($this->rules['hash']) === TRUE) {
                     $filename = call_user_func($this->rules['hash']) . '.' . $file->getExtension();
                 } else {
-                    $filename = $this->rules['hash']($filename) . '.' . $file->getExtension();
+                    $filename = $this->rules['hash'] . '.' . $file->getExtension();
                 }
             }
 
